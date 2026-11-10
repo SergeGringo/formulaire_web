@@ -1,0 +1,30 @@
+
+@media(max-width: 1300px) {
+
+}
+@media(max-width: 1200px) {
+    body form{
+        width: 80%;
+     }
+ 
+}
+@media(max-width: 999px) {
+    body form{
+        width: 80%;
+     }
+
+}
+@media(max-width: 600px) {
+
+ body form{
+    width: 95%;
+ }
+ .conteneur_form,.conteneur_form1{
+    display: flex;
+    flex-direction: column;
+ }
+ .forme_1,.forme_2,.forme_3,.forme_4{
+    width: 100%;
+    margin-bottom: 10px;
+ }
+}

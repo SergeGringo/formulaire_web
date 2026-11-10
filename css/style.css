@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1252ca;
+}
+form{
+width: 50%;
+margin: 40px auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+}
+form .trait{
+ text-align: center;
+}
+.trait{
+    width: 80px;
+    padding: 3px;
+    background-color: orange;
+    margin-bottom: 15px;
+
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.contact h1{
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.conteneur_form, .conteneur_form1{
+    display: flex;
+    justify-content: space-between;
+}
+.forme_1,.forme_2,.forme_3,.forme_4{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+.zone_de_texte{
+    display: flex;
+    flex-direction: column;
+}
+.conteneur_form, .conteneur_form1{
+    margin-bottom: 15px;
+}
+.conteneur_form label, .conteneur_form1 label{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.conteneur_form input, .conteneur_form1 input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 180, 180);
+
+}
+
+.zone_de_texte label{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.zone_de_texte textarea{
+    padding: 10px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    height: 80px;
+}
+.zone_de_texte .those_informations{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(41, 41, 255);
+}
+.zone_de_texte button{
+    padding:  10px; 
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.zone_de_texte button:hover{
+    background-color: rgb(252, 127, 24);
+    cursor: pointer;
+}
+.zone_de_texte .contact_us{
+    text-align: center;
+    font-weight: bold;
+}
